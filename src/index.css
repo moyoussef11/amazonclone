@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .headerHover {
+    @apply hover:border hover:cursor-pointer py-2 px-3;
+  }
+  .liHover {
+    @apply hover:border-b-2 border-black cursor-pointer capitalize;
+  }
+  .productLi {
+    @apply text-gray-600 hover:text-black text-sm font-bold border-b-2 border-b-gray-700 flex items-center justify-end gap-2 hover:cursor-pointer duration-500 w-full capitalize;
+  }
+  .icons{
+    @apply px-1 mx-2 cursor-pointer bg-slate-300 hover:bg-slate-400
+  }
+  .btnDelete{
+    @apply w-fit bg-red-500 py-2 px-4 rounded-full text-white font-bold capitalize hover:bg-red-800 duration-150
+  }
 }
