@@ -1,22 +1,41 @@
-# amazonclone
+# Amazon Clone (Frontend)
 
-## Project Description
+**Live Demo:** [View it here](https://amazoncloneeee.netlify.app/)
 
-•It is a web application that mimics the interface and functionality of Amazon.
-•The Fetch API is used to communicate with the site's API and retrieve the requested data. Fetch API helps in sending
-•HTTP requests and receiving responses from the server.
-•Redux Toolkit is used to manage application state and control data flow.
-•React Router DOM to manage page navigation and create different routes in the application.
-•Use Tailwind CSS to format and design the user interface
-## Requirements
+---
 
-1. Node.js and npm: Node.js and npm need to be installed on your machine. You can download and install them from the [Node.js website](https://nodejs.org/).
-2. Server: The application requires a server to work properly. You can use a Node.js server like Express.js or any other server.
+##  Overview
 
-## Installation
+A visually rich Amazon-like web application built with modern React tools. It features smooth skeleton loading, interactive carousels, and efficient state management with Redux Toolkit.
 
-1. Clone this project to your machine:
+---
+
+##  Tech Stack
+
+- React.js + React Hooks  
+- React Router DOM for seamless navigation  
+- Redux Toolkit for global state management  
+- Tailwind CSS for styling  
+- Fetch API for data retrieval  
+- React Skeleton Loader for loading states  
+- React Carousel for product showcases
+
+---
+
+##  Key Features
+
+- Full React-based frontend mimicking Amazon's UX  
+- Reusable components and responsive design  
+- Smooth skeleton screens during data loading  
+- Product carousel for featured items  
+- Clean routing and efficient state flow
+
+---
+
+##  Installation & Running Locally
 
 ```bash
-git clone https://github.com/your-username/your-project.git
-
+git clone https://github.com/moyoussef11/amazonclone.git
+cd amazonclone
+npm install
+npm start
